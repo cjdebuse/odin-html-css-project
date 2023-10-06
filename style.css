@@ -8,9 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'roboto', sans-serif;
-    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    min-height: 100vh;
 }
 
 footer, header {
@@ -20,7 +19,6 @@ footer, header {
 
 footer {
     color: #e5e7eb;
-    flex: 1;
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -29,7 +27,6 @@ footer {
 header {
     align-items: center;
     display: flex;
-    flex: 1;
     font-size: 24px;
     height: 75px;
     justify-content: space-between;
@@ -38,8 +35,7 @@ header {
 
 main {
     color: #1f2937;
-    height: 150px;
-    flex: 1 0 auto;
+    flex: 1;
 }
 
 .header-links {
