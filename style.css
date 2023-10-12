@@ -1,8 +1,3 @@
-a {
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
 body {
     color: #f9faf8;
     display: flex;
@@ -29,9 +24,13 @@ footer, header, .hero-container {
 
 footer {
     color: #e5e7eb;
-    height: 50px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+footer a {
+    color: #e5e7eb;
 }
 
 header {
@@ -43,16 +42,53 @@ header {
     padding: 15px 100px;
 }
 
+header a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
 main {
     color: #1f2937;
     flex: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    width: 110px;
+}
+
+.card img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 96px;
+    padding: 5px;
+    width: 96px;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+.cardbox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.features {
+    padding: 25px 100px 100px;
+    text-align: center;
 }
 
 .header-links {
     display: flex;
     font-size: 18px;
     gap: 16px;
-    list-style: none;
 }
 
 .hero-container {
